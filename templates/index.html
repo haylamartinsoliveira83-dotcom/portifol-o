@@ -1,1 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Início{% endblock %}
 
+{% block content %}
+<!-- APRESENTAÇÃO -->
+<div class="row align-items-center mb-5">
+    <div class="col-md-6">
+        <h1 class="fw-bold mb-3">Olá, eu sou a Hayla! Seja bem-vindo ao meu portfólio! </h1>
+        <p class="text-muted mb-4">
+            Desenvolvedora iniciante focada em criar experiências web modernas e responsivas.
+            Tenho interesse em design, usabilidade e desenvolvimento front-end, sempre buscando aprender, evoluir e transformar ideias em projetos bem estruturados e visualmente agradáveis.
+        </p>
+        <a href="/projetos" class="btn btn-primary btn-lg">Ver projetos</a>
+    </div>
+
+    <div class="col-md-6 text-center">
+        <img src="{{ url_for('static', filename='img/eufoto.jpeg') }}"
+             class="img-fluid rounded-circle shadow profile-glow"
+             width="260">
+      
+        <div class="social-icons mt-3">
+          <a href="https://www.instagram.com/hayla.martins_" target="_blank">
+            <i class="bi bi-instagram"></i>
+          </a>
+      
+          <a href="mailto:haylamartinsoliveira83@gmail.com">
+            <i class="bi bi-envelope-fill"></i>
+          </a>
+      
+          <a href="https://www.linkedin.com/in/hayla-m-9783243aa" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      
+      
+    </div>
+</div>
+
+<section>
+
+    <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+            <div class="col-md-6 mb-5">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">    
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+           
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+<a href="#" class="text-decoration-none text-dark">
+    <div class="project-card">
+      ...
+    </div>
+  </a>
+  
